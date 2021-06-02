@@ -34,7 +34,7 @@ Mobile design :
 ![](./screenShots/Mobile_view.png)
 
 ### Links
-- [Solution URL](https://alik64.github.io/ProfileCard/index.html)
+- [Solution URL](https://alik64.github.io/CSS_HTML/ProfileCard/)
 
 ## My process
 

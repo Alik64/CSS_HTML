@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <main>
+      <!--Left side desctop-->
+      <div class="icons">
+        <img
+          class="icon_box"
+          src="images/illustration-box-desktop.svg"
+          alt="box"
+        />
+        <img
+          class="icon_woman"
+          src="images/illustration-woman-online-desktop.svg"
+          alt="icon_woman"
+        />
+        <img
+          class="icon_mobile"
+          src="images/illustration-woman-online-mobile.svg"
+          alt="mobile_icon"
+        />
+      </div>
+
+      <!--Right side desctop -->
+      <div class="faqs">
+        <h1>FAQ</h1>
+        <div class="accordion">
+          <!-- Question + Answer 1-->
+          <div class="accordion_item" id="question1">
+            <a class="accordion_link" href="#question1">
+              How many team members can I invite?
+
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow-down"
+                class="arrow"
+              />
+            </a>
+            <div class="answer">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <!-- Question + Answer 2-->
+          <div class="accordion_item" id="question2">
+            <a class="accordion_link" href="#question2">
+              What is the maximum file upload size?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow-down"
+                class="arrow"
+              />
+            </a>
+            <div class="answer">
+              <p>
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </div>
+          <!-- Question + Answer 3-->
+          <div class="accordion_item" id="question3">
+            <a class="accordion_link" href="#question3">
+              How do I reset my password?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow-down"
+                class="arrow"
+              />
+            </a>
+            <div class="answer">
+              <p>
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <!-- Question + Answer 4-->
+          <div class="accordion_item" id="question4">
+            <a class="accordion_link" href="#question4">
+              Can I cancel my subscription?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow-down"
+                class="arrow"
+              />
+            </a>
+            <div class="answer">
+              <p>
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+          </div>
+          <!-- Question + Answer 5-->
+          <div class="accordion_item" id="question5">
+            <a class="accordion_link" href="#question5">
+              Do you provide additional support?
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow-down"
+                class="arrow"
+              />
+            </a>
+            <div class="answer">
+              <p>
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

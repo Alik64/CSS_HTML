@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://alik64.github.io/FAQ-accordion-card-html-css/)
+- [Solution URL](https://alik64.github.io/CSS_HTML/)
 
 
 ## My process

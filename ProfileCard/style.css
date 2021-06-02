@@ -1,0 +1,147 @@
+:root {
+  --darkCyan: hsl(185, 75%, 39%);
+  --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+  --darkGrayishBlue: hsl(227, 10%, 46%);
+  --darkGray: hsl(0, 0%, 59%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  max-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
+  background: var(--darkCyan);
+  width: 100%;
+}
+/* Cercles position */
+
+.top {
+  position: fixed;
+  transform: translate(-77%, -61%);
+}
+.bottom {
+  position: fixed;
+  transform: translate(16%, 28%);
+}
+
+/* ------------- */
+
+/* Card */
+
+.card {
+  background: #fff;
+  width: clamp(320px, calc(50vh - 100px), 400px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 13px;
+}
+
+.card_top {
+  height: 135px;
+  background: url("images/bg-pattern-card.svg");
+  background-size: contain;
+  position: relative;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.card_profile {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.card_profile img {
+  border-radius: 50%;
+  border: 5px #fff solid;
+}
+
+.card_info {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 0px var(--darkGray);
+}
+
+.card_main_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.card_title {
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--veryDarkDesaturatedBlue);
+}
+
+.card_age {
+  font-size: 18px;
+  color: var(--darkGrayishBlue);
+}
+
+.card_city {
+  font-size: 14px;
+  color: var(--darkGrayishBlue);
+}
+
+.card_stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat_num {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--veryDarkDesaturatedBlue);
+  padding-bottom: 5px;
+}
+
+.stat_title {
+  font-size: 12px;
+  color: var(--darkGrayishBlue);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px) {
+  .top {
+    transform: translate(-61%, -61%);
+  }
+  .bottom {
+    transform: translate(29%, 28%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .top {
+    transform: translate(-26%, -48%);
+  }
+  .bottom {
+    transform: translate(72%, 46%);
+  }
+}
